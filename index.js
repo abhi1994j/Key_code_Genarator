@@ -4,7 +4,7 @@ const keyCodes = document.querySelector('#keycodeDisplay');
 console.log(keydisplay);
 
 document.addEventListener('keydown', (event) => {
-//   keys.textContent =  event.key.toUpperCase() ;
+// keys.textContent =  event.key.toUpperCase() ;
   keydisplay.innerHTML = 'You Pressed ' + event.key;
   keyCodes.textContent = event.keyCode;
  
@@ -23,6 +23,6 @@ document.addEventListener('keydown', (event) => {
   }
   audios.play();
  //copied from stackoverflow.com
- 
+
 });
 
